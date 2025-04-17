@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project Overview</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #e6f5e9;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .content-wrapper {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .images-section {
+      flex: 1 1 55%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .right-section {
+      flex: 1 1 40%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .description {
+  font-size: 1.1em;
+  font-family: Georgia, serif;
+  background-color: white; 
+  color: #1a3d1f; 
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 5px solid #2e7d32; 
+}
+
+
+    .tech-used {
+      background-color:white;
+      padding: 15px;
+      border-left: 5px solid #2e7d32;
+      border-radius: 4px;
+    }
+
+    .tech-used h3 {
+      margin-top: 0;
+    }
+
+    .tech-used ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .image-box {
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-box img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+    .back-button {
+  display: inline-block;
+  background-color: #498a4c;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #1b5e20;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content-wrapper">
+      <!-- Left Side: Images -->
+      <div class="images-section">
+        <div class="image-box">
+          <img src="advising1.png" alt="Screenshot 1">
+        </div>
+        <div class="image-box">
+          <img src="advising.png" alt="Screenshot 2">
+        </div>
+      </div>
+
+      <!-- Right Side: Description + Tech -->
+      <div class="right-section">
+        <div class="description">
+          <p>This project was built using Java as a programming language. In this project I made an advising window where one can add or drop courses. The added courses were saved into files.There is also a 
+            system to check if two classes crashes or not. A person save the courses in file and also delete it if he/she wishes to.</p>
+        </div>
+
+        <div class="tech-used">
+          <h3>Technologies Used:</h3>
+          <ul>
+            <li>Language: JAVA</li>
+            <li>IDE: Intellij Idea</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="Front.html" class="back-button">⬅ Back</a>
+</body>
+</html>
+
